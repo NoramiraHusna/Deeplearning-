@@ -1,7 +1,6 @@
 # Pothole Detection || Pothole Detection using python and yolov8
 
 
-
 ### Steps to run Code
 - Clone the repository.
 ```
@@ -18,20 +17,23 @@ pip install --upgrade pip
 ```
 - Install requirements with the mentioned command below.
 ```
-pip install -r requirements.txt
+pip install -r req.txt (modified req)
 ```
 - Run the code with the mentioned command below.
-
- - Run for webcam
  
 `python test.py`
 
-`python predict.py model=y8best.pt source="demo.mp4" show=True`
+~~`python predict.py model=y8best.pt source="demo.mp4" show=True`~~
 
-`python predict.py model=y8best.pt source=0 show=True`
+~~`python predict.py model=y8best.pt source=0 show=True`~~
+
+`python im.py > python train.py (training)`
+
+`python comp.py (model comparison)`
 
 
 download weight: https://drive.google.com/drive/folders/1T1h2WH3_wrNb0foJuDw8w33Br_2kZjnS?usp=share_link
+dataset link: https://github.com/noorkhokhar99/data-traning 
 
 
 <p align="center">
