@@ -2,6 +2,7 @@
 
 ### Steps to run Code
 - Clone the repository.
+- 
 ~~git clone https://github.com/noorkhokhar99/Pothole-Detection-Pothole-Detection-using-python-and-deep-learning.git~~
 ```
 - Goto the cloned folder.
