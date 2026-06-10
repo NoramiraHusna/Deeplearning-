@@ -1,0 +1,6 @@
+path: mini_subset
+train: images/val
+val: images/val
+
+names:
+  0: Pothole
